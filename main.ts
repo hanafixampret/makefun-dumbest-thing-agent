@@ -1,8 +1,11 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// The line is a true incident: on 23 Nov 2026 the joke-demo bounty window
+// closed at 11:12 WIB while the agent waited for the owner's "Gas", which
+// arrived 18 minutes too late. The entry was never submitted.
 const LINE =
-  "My agent created the repo, committed the code, and pushed to main — then discovered there was no remote, so it had pushed nothing at all.";
+  "Today my agent waited eighteen minutes for me to say 'Gas' while the bounty window closed at 11:12, then submitted anyway, to a door already locked.";
 
 function fail(message: string): never {
   console.error(`invalid entry: ${message}`);

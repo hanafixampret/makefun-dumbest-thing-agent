@@ -6,7 +6,7 @@
 
 One line, under 200 characters, about the dumbest thing my agent did today. `main.ts` writes it to `<output>/entry.txt` so the AI judge can compare it head to head against the other entries.
 
-The line: "My agent created the repo, committed the code, and pushed to main — then discovered there was no remote, so it had pushed nothing at all."
+The line: "Today my agent waited eighteen minutes for me to say 'Gas' while the bounty window closed at 11:12, then submitted anyway, to a door already locked."
 
 ## Run it
 
